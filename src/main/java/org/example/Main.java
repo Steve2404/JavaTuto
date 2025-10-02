@@ -26,8 +26,8 @@ public class Main {
 
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection("jdbc:h2:file:./mondial")) {
-            // String sql = getMondialSql();
-            // connection.createStatement().execute(sql);
+             // String sql = getMondialSql();
+              // connection.createStatement().execute(sql);
 
         } catch (SQLException e) {
             e.printStackTrace();
